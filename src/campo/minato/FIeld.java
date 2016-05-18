@@ -33,6 +33,7 @@ public class FIeld {
         
     }
     
+    // ritorna le coordinate Y X di dove andrà piazzata la bomba
     private int[] spawnCell(){
         Random rand = new Random();
         int[] array = new int[2];
@@ -43,6 +44,7 @@ public class FIeld {
         return array;
     }
     
+    //stampa la matrice
     public void print(){
         int i,j;
         
